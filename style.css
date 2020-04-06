@@ -1,0 +1,113 @@
+body{
+    background: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h2{
+    font-family: trajan-pro-3, serif;
+
+    font-weight: 800;
+    
+    font-style: normal;
+}
+
+h3{
+    color: rgb(27, 14, 14);
+    padding: 0;
+    margin: 0 !important;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+
+.mainWrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.mission{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#missionImage{
+    justify-self: center;
+    z-index: 2;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 5px;
+    width: 100%; 
+    height: 100%;
+}
+
+#imageText{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 5;
+    align-self: center;
+    justify-self: center;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: #eeeeeed0;
+    text-align: center;
+    
+    font-family: trajan-pro-3, serif;
+
+    font-weight: 800;
+    
+    font-style: normal;
+}
+
+.line{
+    border-top: #003865 1px solid;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+#text{
+    background-color: #eeeeeed0;
+    padding: 0;
+    margin: 0;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: #003865;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+
+}
+
+.header{
+    /* border-bottom: #9BCBEB solid 1px; */
+    width: 100%;
+}
+
+#title{
+    text-align: center;
+    color:  #003865;
+}
+
+.cuTypeface{  
+
+font-family: trajan-pro-3, serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+}
+
+.bot{
+    padding-bottom: 10px !important;
+}
